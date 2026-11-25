@@ -156,7 +156,19 @@ Coverage includes all simulation scenarios, missing-value behavior, report gener
 
 ## Screenshots
 
-Save genuine application captures in `images/screenshots/`: dashboard overview, current weather and alerts, five-day view and charts, simulation scenario, and FastAPI `/docs`. Do not represent mockups as running software or include private credentials/account details.
+These screenshots were captured from the running Streamlit application with Playwright. They show real application output in simulation mode; the visible banner identifies synthetic data. The alert capture uses the high-temperature scenario.
+
+### Dashboard overview
+
+![SkyWatch dashboard overview with current weather metrics and five-day summary](images/dashboard-overview.png)
+
+### Five-day forecast and charts
+
+![Five-day forecast table with temperature, rain probability, and wind charts](images/weather-forecast.png)
+
+### Weather alerts
+
+![Simulation mode showing a high-temperature alert and its severity](images/weather-alerts.png)
 
 ## GitHub submission
 

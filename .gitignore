@@ -9,6 +9,9 @@ outputs/*
 !outputs/.gitkeep
 images/*
 !images/.gitkeep
+!images/dashboard-overview.png
+!images/weather-forecast.png
+!images/weather-alerts.png
 !images/screenshots/
 !images/screenshots/**
 reports/*
