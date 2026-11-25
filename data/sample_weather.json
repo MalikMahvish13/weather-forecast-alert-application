@@ -1,0 +1,35 @@
+{
+  "source": "simulation",
+  "location": {"name": "Sample City", "country": "Simulation", "latitude": 51.5072, "longitude": -0.1276, "timezone": "Europe/London"},
+  "current": {
+    "time": "2026-06-01T12:00",
+    "temperature_c": 22.4,
+    "feels_like_c": 22.0,
+    "humidity_percent": 78,
+    "precipitation_mm": 0.0,
+    "precipitation_probability_percent": 10,
+    "wind_kmh": 12.0,
+    "weather_code": 1
+  },
+  "hourly": [
+    {"time":"2026-06-01T12:00","temperature_c":22.4,"humidity_percent":58,"precipitation_mm":0,"precipitation_probability_percent":10,"wind_kmh":12,"weather_code":1},
+    {"time":"2026-06-01T13:00","temperature_c":23.1,"humidity_percent":55,"precipitation_mm":0,"precipitation_probability_percent":10,"wind_kmh":14,"weather_code":1},
+    {"time":"2026-06-01T14:00","temperature_c":24.0,"humidity_percent":53,"precipitation_mm":0,"precipitation_probability_percent":15,"wind_kmh":16,"weather_code":2},
+    {"time":"2026-06-01T15:00","temperature_c":24.8,"humidity_percent":52,"precipitation_mm":0,"precipitation_probability_percent":20,"wind_kmh":18,"weather_code":2},
+    {"time":"2026-06-01T16:00","temperature_c":23.5,"humidity_percent":55,"precipitation_mm":0,"precipitation_probability_percent":20,"wind_kmh":18,"weather_code":2},
+    {"time":"2026-06-01T17:00","temperature_c":21.8,"humidity_percent":59,"precipitation_mm":0,"precipitation_probability_percent":15,"wind_kmh":17,"weather_code":1},
+    {"time":"2026-06-01T18:00","temperature_c":20.2,"humidity_percent":62,"precipitation_mm":0,"precipitation_probability_percent":10,"wind_kmh":15,"weather_code":1},
+    {"time":"2026-06-01T19:00","temperature_c":19.1,"humidity_percent":65,"precipitation_mm":0,"precipitation_probability_percent":10,"wind_kmh":13,"weather_code":1},
+    {"time":"2026-06-01T20:00","temperature_c":18.0,"humidity_percent":68,"precipitation_mm":0,"precipitation_probability_percent":10,"wind_kmh":12,"weather_code":0},
+    {"time":"2026-06-01T21:00","temperature_c":17.4,"humidity_percent":70,"precipitation_mm":0,"precipitation_probability_percent":5,"wind_kmh":10,"weather_code":0},
+    {"time":"2026-06-01T22:00","temperature_c":16.9,"humidity_percent":71,"precipitation_mm":0,"precipitation_probability_percent":5,"wind_kmh":9,"weather_code":0},
+    {"time":"2026-06-01T23:00","temperature_c":16.3,"humidity_percent":73,"precipitation_mm":0,"precipitation_probability_percent":5,"wind_kmh":8,"weather_code":0}
+  ],
+  "daily": [
+    {"date":"2026-06-01","temperature_max_c":24.8,"temperature_min_c":16.3,"feels_like_max_c":24.0,"precipitation_probability_max_percent":20,"precipitation_sum_mm":0,"wind_max_kmh":18,"weather_code":2},
+    {"date":"2026-06-02","temperature_max_c":25.4,"temperature_min_c":17.1,"feels_like_max_c":25.0,"precipitation_probability_max_percent":15,"precipitation_sum_mm":0,"wind_max_kmh":20,"weather_code":1},
+    {"date":"2026-06-03","temperature_max_c":23.8,"temperature_min_c":15.9,"feels_like_max_c":23.2,"precipitation_probability_max_percent":30,"precipitation_sum_mm":1.2,"wind_max_kmh":22,"weather_code":3},
+    {"date":"2026-06-04","temperature_max_c":22.6,"temperature_min_c":15.2,"feels_like_max_c":22.0,"precipitation_probability_max_percent":40,"precipitation_sum_mm":2.4,"wind_max_kmh":19,"weather_code":61},
+    {"date":"2026-06-05","temperature_max_c":24.1,"temperature_min_c":16.4,"feels_like_max_c":23.8,"precipitation_probability_max_percent":20,"precipitation_sum_mm":0.2,"wind_max_kmh":17,"weather_code":2}
+  ]
+}
